@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC4FC441FD91EDA00C93522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4FC431FD91EDA00C93522 /* AppDelegate.swift */; };
+		3FC4FC461FD91EDA00C93522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4FC451FD91EDA00C93522 /* ViewController.swift */; };
+		3FC4FC491FD91EDA00C93522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC4FC471FD91EDA00C93522 /* Main.storyboard */; };
+		3FC4FC4B1FD91EDA00C93522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC4FC4A1FD91EDA00C93522 /* Assets.xcassets */; };
+		3FC4FC4E1FD91EDA00C93522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC4FC4C1FD91EDA00C93522 /* LaunchScreen.storyboard */; };
+		3FC4FC591FD91EDA00C93522 /* hentaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4FC581FD91EDA00C93522 /* hentaiTests.swift */; };
+		3FC4FC641FD91EDA00C93522 /* hentaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4FC631FD91EDA00C93522 /* hentaiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC4FC551FD91EDA00C93522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC4FC381FD91EDA00C93522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC4FC3F1FD91EDA00C93522;
+			remoteInfo = hentai;
+		};
+		3FC4FC601FD91EDA00C93522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC4FC381FD91EDA00C93522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC4FC3F1FD91EDA00C93522;
+			remoteInfo = hentai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FC4FC401FD91EDA00C93522 /* hentai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hentai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC4FC431FD91EDA00C93522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC4FC451FD91EDA00C93522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC4FC481FD91EDA00C93522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC4FC4A1FD91EDA00C93522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC4FC4D1FD91EDA00C93522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC4FC4F1FD91EDA00C93522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC4FC541FD91EDA00C93522 /* hentaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hentaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC4FC581FD91EDA00C93522 /* hentaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hentaiTests.swift; sourceTree = "<group>"; };
+		3FC4FC5A1FD91EDA00C93522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC4FC5F1FD91EDA00C93522 /* hentaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hentaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC4FC631FD91EDA00C93522 /* hentaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hentaiUITests.swift; sourceTree = "<group>"; };
+		3FC4FC651FD91EDA00C93522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC4FC3D1FD91EDA00C93522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC4FC511FD91EDA00C93522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC4FC5C1FD91EDA00C93522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC4FC371FD91EDA00C93522 = {
+			isa = PBXGroup;
+			children = (
+				3FC4FC421FD91EDA00C93522 /* hentai */,
+				3FC4FC571FD91EDA00C93522 /* hentaiTests */,
+				3FC4FC621FD91EDA00C93522 /* hentaiUITests */,
+				3FC4FC411FD91EDA00C93522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC4FC411FD91EDA00C93522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC4FC401FD91EDA00C93522 /* hentai.app */,
+				3FC4FC541FD91EDA00C93522 /* hentaiTests.xctest */,
+				3FC4FC5F1FD91EDA00C93522 /* hentaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC4FC421FD91EDA00C93522 /* hentai */ = {
+			isa = PBXGroup;
+			children = (
+				3FC4FC431FD91EDA00C93522 /* AppDelegate.swift */,
+				3FC4FC451FD91EDA00C93522 /* ViewController.swift */,
+				3FC4FC471FD91EDA00C93522 /* Main.storyboard */,
+				3FC4FC4A1FD91EDA00C93522 /* Assets.xcassets */,
+				3FC4FC4C1FD91EDA00C93522 /* LaunchScreen.storyboard */,
+				3FC4FC4F1FD91EDA00C93522 /* Info.plist */,
+			);
+			path = hentai;
+			sourceTree = "<group>";
+		};
+		3FC4FC571FD91EDA00C93522 /* hentaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC4FC581FD91EDA00C93522 /* hentaiTests.swift */,
+				3FC4FC5A1FD91EDA00C93522 /* Info.plist */,
+			);
+			path = hentaiTests;
+			sourceTree = "<group>";
+		};
+		3FC4FC621FD91EDA00C93522 /* hentaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC4FC631FD91EDA00C93522 /* hentaiUITests.swift */,
+				3FC4FC651FD91EDA00C93522 /* Info.plist */,
+			);
+			path = hentaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC4FC3F1FD91EDA00C93522 /* hentai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC4FC681FD91EDA00C93522 /* Build configuration list for PBXNativeTarget "hentai" */;
+			buildPhases = (
+				3FC4FC3C1FD91EDA00C93522 /* Sources */,
+				3FC4FC3D1FD91EDA00C93522 /* Frameworks */,
+				3FC4FC3E1FD91EDA00C93522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hentai;
+			productName = hentai;
+			productReference = 3FC4FC401FD91EDA00C93522 /* hentai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC4FC531FD91EDA00C93522 /* hentaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC4FC6B1FD91EDA00C93522 /* Build configuration list for PBXNativeTarget "hentaiTests" */;
+			buildPhases = (
+				3FC4FC501FD91EDA00C93522 /* Sources */,
+				3FC4FC511FD91EDA00C93522 /* Frameworks */,
+				3FC4FC521FD91EDA00C93522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC4FC561FD91EDA00C93522 /* PBXTargetDependency */,
+			);
+			name = hentaiTests;
+			productName = hentaiTests;
+			productReference = 3FC4FC541FD91EDA00C93522 /* hentaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC4FC5E1FD91EDA00C93522 /* hentaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC4FC6E1FD91EDA00C93522 /* Build configuration list for PBXNativeTarget "hentaiUITests" */;
+			buildPhases = (
+				3FC4FC5B1FD91EDA00C93522 /* Sources */,
+				3FC4FC5C1FD91EDA00C93522 /* Frameworks */,
+				3FC4FC5D1FD91EDA00C93522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC4FC611FD91EDA00C93522 /* PBXTargetDependency */,
+			);
+			name = hentaiUITests;
+			productName = hentaiUITests;
+			productReference = 3FC4FC5F1FD91EDA00C93522 /* hentaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC4FC381FD91EDA00C93522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FC4FC3F1FD91EDA00C93522 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3FC4FC531FD91EDA00C93522 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FC4FC3F1FD91EDA00C93522;
+					};
+					3FC4FC5E1FD91EDA00C93522 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FC4FC3F1FD91EDA00C93522;
+					};
+				};
+			};
+			buildConfigurationList = 3FC4FC3B1FD91EDA00C93522 /* Build configuration list for PBXProject "hentai" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC4FC371FD91EDA00C93522;
+			productRefGroup = 3FC4FC411FD91EDA00C93522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC4FC3F1FD91EDA00C93522 /* hentai */,
+				3FC4FC531FD91EDA00C93522 /* hentaiTests */,
+				3FC4FC5E1FD91EDA00C93522 /* hentaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC4FC3E1FD91EDA00C93522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC4FC4E1FD91EDA00C93522 /* LaunchScreen.storyboard in Resources */,
+				3FC4FC4B1FD91EDA00C93522 /* Assets.xcassets in Resources */,
+				3FC4FC491FD91EDA00C93522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC4FC521FD91EDA00C93522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC4FC5D1FD91EDA00C93522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC4FC3C1FD91EDA00C93522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC4FC461FD91EDA00C93522 /* ViewController.swift in Sources */,
+				3FC4FC441FD91EDA00C93522 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC4FC501FD91EDA00C93522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC4FC591FD91EDA00C93522 /* hentaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC4FC5B1FD91EDA00C93522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC4FC641FD91EDA00C93522 /* hentaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC4FC561FD91EDA00C93522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC4FC3F1FD91EDA00C93522 /* hentai */;
+			targetProxy = 3FC4FC551FD91EDA00C93522 /* PBXContainerItemProxy */;
+		};
+		3FC4FC611FD91EDA00C93522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC4FC3F1FD91EDA00C93522 /* hentai */;
+			targetProxy = 3FC4FC601FD91EDA00C93522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC4FC471FD91EDA00C93522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC4FC481FD91EDA00C93522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC4FC4C1FD91EDA00C93522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC4FC4D1FD91EDA00C93522 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC4FC661FD91EDA00C93522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FC4FC671FD91EDA00C93522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC4FC691FD91EDA00C93522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hentai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hentai.hentai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC4FC6A1FD91EDA00C93522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hentai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hentai.hentai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FC4FC6C1FD91EDA00C93522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hentaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hentai.hentaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hentai.app/hentai";
+			};
+			name = Debug;
+		};
+		3FC4FC6D1FD91EDA00C93522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hentaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hentai.hentaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hentai.app/hentai";
+			};
+			name = Release;
+		};
+		3FC4FC6F1FD91EDA00C93522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hentaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hentai.hentaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hentai;
+			};
+			name = Debug;
+		};
+		3FC4FC701FD91EDA00C93522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hentaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hentai.hentaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hentai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC4FC3B1FD91EDA00C93522 /* Build configuration list for PBXProject "hentai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC4FC661FD91EDA00C93522 /* Debug */,
+				3FC4FC671FD91EDA00C93522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC4FC681FD91EDA00C93522 /* Build configuration list for PBXNativeTarget "hentai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC4FC691FD91EDA00C93522 /* Debug */,
+				3FC4FC6A1FD91EDA00C93522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC4FC6B1FD91EDA00C93522 /* Build configuration list for PBXNativeTarget "hentaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC4FC6C1FD91EDA00C93522 /* Debug */,
+				3FC4FC6D1FD91EDA00C93522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC4FC6E1FD91EDA00C93522 /* Build configuration list for PBXNativeTarget "hentaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC4FC6F1FD91EDA00C93522 /* Debug */,
+				3FC4FC701FD91EDA00C93522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC4FC381FD91EDA00C93522 /* Project object */;
+}
